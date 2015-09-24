@@ -16,6 +16,7 @@ RUN apt-get update \
                           python \
                           python-dev \
                           vim-tiny \
+                          libjpeg-dev \
     && mkdir libxml2 \
         && curl -sSL ftp://xmlsoft.org/libxml2/libxml2-2.9.2.tar.gz | tar xz --strip 1 -C libxml2 \
         && cd libxml2 \
